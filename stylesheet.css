@@ -1,0 +1,201 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Georgia', serif
+}
+
+.navbar {
+	background-color: #1F2937;
+	color: white;
+	height: 50px;
+	top: 0;
+	left: 0;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	padding: 20px;
+}
+
+.navbar .logo {
+		font-weight: extra-bold;
+		font-size: 24px;
+		justify-content: start;
+		margin-right: 20%;
+}
+
+
+.nav a {
+	margin-right:50px;
+	text-decoration: none;
+	font-style: bold;
+	color: #E5E7EB;
+}
+
+.nav a:hover {
+	color: lightblue;
+}
+
+.navbar ul {
+	display: flex;
+	
+}
+
+.header {
+	display: flex;
+	background-color: #1F2937;
+	height:500px;
+	color: white;
+}
+
+.header h1 {
+	font-size: 48px;
+	font-style: extra-bold;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header p {
+	font-size: 18px;
+	color: #E5E7EB;
+	
+}
+
+.header button {
+	background-color: #3882F6;
+	border-radius:10%;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 100px;
+	margin-top:10px;
+}
+
+.header .image {
+	background-color: grey;
+	height:250px;
+	width: 600px;
+	margin-left: 20%;
+	padding
+
+}
+
+.header .image p {
+	margin-top: 20%;
+	margin-left: 27%;
+}
+
+.information .container {
+	height: 500px;
+}
+
+.information .boxes {
+	display: flex;
+	justify-content: center;
+	flex-shrink: 3;
+	gap: 60px;
+	margin-top: 5%;
+}
+
+.information h1 {
+    margin-top: 50px;
+    text-align: center; 
+	font-size: 3rem;
+}
+
+.information .box {
+	border: 5px solid #3882f6;
+	height: 200px;
+	width: 200px;
+	border-radius: 15%;
+}
+
+.information .box p {
+	margin-top: 100%;
+	margin-left: 10%;
+}
+
+.quote-section .container{
+	display: flex;
+	height: 500px;
+	background-color: #E5E7EB;
+	justify-content: center;
+}
+
+.quote-section .quote {	
+	margin-top: 7%;	
+}
+.quote-section p {
+	font-size: 36px;
+	font-style: italic;
+}
+
+.quote-section h3 {
+	margin-left: 70%;
+	font-size: 15x;
+	text-align: center;
+}
+
+.footer .container {
+	display: flex;
+    height: 400px;
+	justify-content: center;
+	
+}
+
+.footer .signup-box{
+	display: flex;
+	width: 1100px;
+	height: 35%;
+	background-color: #3882F6;
+	color: white;
+	margin-top: 6%;
+	border-radius: 10px;
+}
+
+.footer .signup-box button {
+	text-decoration: none;
+	border: 3px solid white;
+	background-color:#3882F6;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 50px;
+
+	
+}
+.footer .signup-text {
+	line-height:25px;
+	text-align: center;
+	padding: 50px;
+	margin-left: 18%;
+}
+
+.copyright .container {
+	background-color: #1F2937;
+	margin: 0;
+	height: 50px;
+	color: white;
+}
+
+.copyright .container h4 {
+	text-align: center;
+	line-height: 50px;
+}
